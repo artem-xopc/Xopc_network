@@ -1,12 +1,15 @@
 // import logo from './logo.svg';
-import './App.css';
+import Footer from "./Footer/Footer.jsx";
+import "./App.css";
+import Header from "./Header/Header.jsx";
+import Main from "./main/Main.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <p><a href="https://artem-xopc.github.io/cv/">Моё резюме</a></p>
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
