@@ -1,6 +1,7 @@
 .main-content {
     background-color: rgb(45, 45, 45);
     color: white;
+    display: grid;
 }
 
 a {
@@ -10,5 +11,10 @@ a {
 
 a:hover {
     color: gold;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    
 }

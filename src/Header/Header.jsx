@@ -1,13 +1,25 @@
-import './Header.css'
+import "./Header.css";
 
 function Header() {
-    return (
-        <div className='default'>
-            Это хедер
-            <p>Я без понятия, как вы сюда попали, но добро пожаловать!</p>
-        </div>
-    );
+  return (
+    <div className="header-wrapper">
+      <div>
+        <img src={require("./logo.png")} className="logo" alt="Логотип сайта" />
+      </div>
+            <div className="main__btn">
+              Главная
+            </div>
+            <div className="articles__btn">
+              Статьи
+            </div>
+            <div className="about-me__btn">
+              Обо мне
+            </div>
+            <div className="search_inp">
+              Поиск по сайту
+            </div>
+    </div>
+  );
 }
-
 
 export default Header;

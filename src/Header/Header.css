@@ -1,9 +1,70 @@
-.main-content {
-    background-color: rgb(45, 45, 45);
+.header-wrapper {
+    background-color: rgb(26, 25, 25);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 45px;
     color: white;
+    border-bottom: 1px solid gold;
+    height: 50px;
+    width: 1024px;
+    margin-bottom: 150px;
+    position: fixed;
 }
 
 a {
     color: gold;
     text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+    width: 20px;
+    margin: 10px;
+} 
+
+.main__btn {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+}
+
+.main__btn:hover {
+    border: 1px solid gold;
+    background-color: rgb(32, 31, 31);
+}
+
+.articles__btn {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+}
+
+.articles__btn:hover {
+    border: 1px solid gold;
+    background-color: rgb(32, 31, 31);
+}
+
+.about-me__btn {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+}
+
+.search_inp {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
 }
