@@ -1,6 +1,6 @@
 import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
     <div className="header-wrapper">
       <div>
@@ -10,7 +10,7 @@ function Header() {
               Главная
             </div>
             <div className="articles__btn">
-              Статьи
+              Статьи 
             </div>
             <div className="about-me__btn">
               Обо мне
