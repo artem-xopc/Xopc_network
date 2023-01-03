@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./Header/Header.jsx";
 import Main from "./main/Main.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Articles from "./Articles/Articles-main.jsx";
+import Articles from "./Articles/Articles.jsx";
 import About from "./AbounMe/About.jsx";
 
 function App() {

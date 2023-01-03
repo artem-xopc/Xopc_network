@@ -2,14 +2,12 @@
     background-color: rgb(26, 25, 25);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
     height: 45px;
     color: white;
     border-bottom: 1px solid gold;
     height: 50px;
-    width: 1024px;
     margin-bottom: 150px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 a {

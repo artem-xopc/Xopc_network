@@ -6,6 +6,9 @@
 
 .App {
     display: grid;
+    grid-template-areas: "h h" "c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 12fr;
     background-color: rgb(45, 45, 45);
     max-width: 1024px;
     margin: auto;

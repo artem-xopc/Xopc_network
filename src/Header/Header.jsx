@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -7,13 +8,13 @@ const Header = () => {
         <img src={require("./logo.png")} className="logo" alt="Логотип сайта" />
       </div>
             <div className="main__btn">
-              Главная
+              <NavLink to="/">Главная</NavLink>
             </div>
             <div className="articles__btn">
-              Статьи 
+              <NavLink to="/articles">Статьи</NavLink>
             </div>
             <div className="about-me__btn">
-              Обо мне
+            <NavLink to="/about">Обо мне</NavLink>
             </div>
             <div className="search_inp">
               Поиск по сайту

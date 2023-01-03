@@ -3,10 +3,7 @@ import './Main.css'
 const Main = () => {
   return (
     <div className="main-content">
-       <div>
-        <p>Я без понятия, как вы сюда попали, но добро пожаловать!</p>
-      </div>
-      <h1>Welcome to Xopc Network</h1>
+      <h1>Welcome to XNet</h1>
       <p>Здесь вы найдёте:</p>
       <ul>
         <li>Мои книги;</li>
