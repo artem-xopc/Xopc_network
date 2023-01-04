@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
-import Footer from "./Footer/Footer.jsx";
+import Footer from "./components/Footer/Footer"
 import "./App.css";
-import Header from "./Header/Header.jsx";
-import Main from "./main/Main.jsx";
+import Header from "./components/Header/Header";
+import Main from "./components/main/Main";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Articles from "./Articles/Articles.jsx";
-import About from "./AbounMe/About.jsx";
+import Articles from "./components/Articles/Articles";
+import About from "./components/AbounMe/About";
 
 function App() {
   return (
